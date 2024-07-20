@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-wrapper {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  .owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+  }
+  .owl-theme .owl-dots .owl-dot.active span,
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: #5110e9;
+  }
+  
+  .owl-carousel .item {
+    text-align: center;
+  }
+  .owl-carousel .nav-button {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    position: absolute;
+    top: 210px !important;
+  }
+  .owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.25;
+  }
+  .owl-carousel .owl-prev {
+    left: -45px;
+  }
+  .owl-carousel .owl-next {
+    right: -45px;
+  }
+  .owl-theme .owl-nav [class*=owl-] {
+    color: orange;
+    font-size: 39px;
+    
+    border-radius: 3px;
+  }
+  .owl-carousel .prev-carousel:hover {
+    background-position: 0px -53px;
+  }
+  .owl-carousel .next-carousel:hover {
+    background-position: -24px -53px;
+  }
+
+.order-details label {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.order-details div {
+    font-size: 14px;
+    padding: 5px !important;
+}
+
+.whatsapp-chat {
+    bottom: 10px;
+    left: 10px;
+    position: fixed;
+
+}
+
+/* rating */
+.rating-css div {
+  color: #ffe400;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.rating-css input {
+  display: none;
+}
+
+.rating-css input+label {
+  font-size: 60px;
+  text-shadow: 1px 1px 0 #8f8420;
+  cursor: pointer;
+}
+
+.rating-css input:checked+label~label {
+  color: #b4afaf;
+}
+
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+
+/* End of Star Rating */
